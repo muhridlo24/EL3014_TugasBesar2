@@ -1,4 +1,4 @@
-# EL3014_TugasBesar2
+# EL3014 Tugas Besar2
 Tugas Besar 2 Sistem Mikroprosessor
 <p>Contributor:</p>
 <li> Muhammad Ridlo / 13219009</li>
