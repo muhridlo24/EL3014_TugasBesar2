@@ -1,6 +1,5 @@
 #include <Wire.h>
 #include <TimerOne.h>
-int led7=7;
 int state_pid=0;
 int state_send=0;
 int state_receive=0;
@@ -42,8 +41,6 @@ void setup()
 
 //Fungsi ISR
 void ISR_timer(void){
-  digitalWrite(led7,nyala);
-  nyala=!nyala;
   //kalkulasi PID, dengan periode 0,001s
   state_pid=1;
   
